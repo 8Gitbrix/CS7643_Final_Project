@@ -3,6 +3,8 @@ Using VAEs to train classifiers.
 
 To run our code, colab is required. Upload the folder into google drive and then run the notebooks on colab. This is becuase we use colab specific functions like cd to move into this specific folder on drive. Make sure the folder name is the same.
 
+The colab notebooks that utilize the quick draw dataset require our data of 10 selected sketch classes to be downloaded. Run the prepare_data.pynb colab file in drive once you upload the project to drive. Alternatively, those functions can be run to download the specific classes that we used which are: (tree, t-shirt, ice cream, fish, face, car, bowtie, apple, flamingo, sheep).
+
 ## Important File Descriptions:
 * `beta_vae.ipynb` - notebook for our beta-VAE trained on the MNIST dataset.
 * `bvae_classifier_mnist_v4.ipynb` - Two layer fully connected classifier that trains on the encoded representations of the beta-vae (`bVAE.pt`) on the MNIST dataset.
