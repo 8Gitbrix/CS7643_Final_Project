@@ -11,5 +11,6 @@ The colab notebooks that utilize the quick draw dataset require our data of 10 s
 * `bvae_classifier_mnist_v3.ipynb` - Five layer fully connected classifier that trains on the encoded representations of the beta-vae (`bVAE.pt`) on the MNIST dataset.
 * `beta_vae_quickdraw.ipynb` - notebook for our beta-VAE trained on the Quick Draw dataset.
 * `beta_vae_fashionMNIST.ipynb` - notebook for our beta-VAE trained on the fashion MNIST dataset.
+* `bvae_classifier_fashionMNIST.ipynb` - Five layer fully connected classifier that trains on the encoded representations of the beta-vae (`bVAE.pt`) on the fashionMNIST dataset.
 * `vae_classifier_mnist_v3.ipynb` - Five layer fully connected classifier fully connected classifier that trains on the encoded representations of a simple VAE (`vae_epoch_25.pt`) on the MNIST dataset.
 * `hybridvae_classifier_mnist.ipynb` - VAE but with the decoder swapped with a classifier. Model did not train well, so stopped training
